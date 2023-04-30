@@ -10,27 +10,27 @@
 10. '3' will be printed to the console as const length was set to the length of prices (3) on line 4 and line 12 is still in block scope of that.
 11. This function will return [50, 100, 150]. All the variables in their correct scopes, so there isn't an error. Thus, the result is just the discount (50%) applied to each price.
 12. 
-	a. student.name
-	b. student['Grad Year']
-	c. student.greeting()
-	d. student['Favorite Teacher'].name
-	e. student.courseLoad[0]
+	* a. student.name
+	* b. student['Grad Year']
+	* c. student.greeting()
+	* d. student['Favorite Teacher'].name
+	* e. student.courseLoad[0]
 13. 
-	a. '32', because ints get converted to their string representation under addition
-	b. 1, because subtraction causes strings to get converted to ints
-	c. 3, because null converts to 0 when parsed as an int
-	d. '3null', because null converts to 'null' with a string
-	e. 4, because true converts to 1 when parsed as an int
-	f. 0, because both null and false become 0s as numbers
-	g. '3undefined', because undefined becomes itself as a string when concatenated
-	h. NaN, because undefined is NaN under numeric conversion rules
+	* a. '32', because ints get converted to their string representation under addition
+	* b. 1, because subtraction causes strings to get converted to ints
+	* c. 3, because null converts to 0 when parsed as an int
+	* d. '3null', because null converts to 'null' with a string
+	* e. 4, because true converts to 1 when parsed as an int
+	* f. 0, because both null and false become 0s as numbers
+	* g. '3undefined', because undefined becomes itself as a string when concatenated
+	* h. NaN, because undefined is NaN under numeric conversion rules
 14.
-	a. true, because '2' is converted to the number 2 and 2 > 1
-	b. false, compared as strings '2' is greater than '12' because '2' is a bigger character than '1'
-	c. true, '2' is converted to a string and thus 2 == 2
-	d. false, they are not the same type
-	e. false, true is converted to 1 and 1 =/= 2
-	f. true, 2 is converted to true b/c it is nonzero and true === true
+	* a. true, because '2' is converted to the number 2 and 2 > 1
+	* b. false, compared as strings '2' is greater than '12' because '2' is a bigger character than '1'
+	* c. true, '2' is converted to a string and thus 2 == 2
+	* d. false, they are not the same type
+	* e. false, true is converted to 1 and 1 =/= 2
+	* f. true, 2 is converted to true b/c it is nonzero and true === true
 15. == compares if two variables are converted to the same value, but === compares if two variables _are_ the same value
 16. part2-question16.js
 17. The result is [2, 4, 6]. Each element in the input array is passed to the doSomething() function passed into the function as the callback parameter. This function multiplies by 2. Thus, the result is all the original numbers multiplied by 2.
