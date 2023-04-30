@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are being assigned the value of a text field, and thus are being considered as strings. When they are added together, then, Javascript concatenates them instead of adding them as numbers like we would want. This means that when we attempt to add 1+1, we get 11 instead of 2.
+2. I would fix this bug by forcing Javascript to always consider the inputs to be numbers using the unary operator + on both num1 and num2. 
